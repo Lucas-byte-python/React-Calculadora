@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: aqua;
+}
+
+input, label, select {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.cube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  background-color: rgb(72, 199, 100);
+  border: 5px solid rgb(255, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+}
